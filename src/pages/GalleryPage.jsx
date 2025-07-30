@@ -20,6 +20,10 @@ import office3 from "../assets/office/office3.jpeg"
 import office4 from "../assets/office/office4.jpeg"
 
 import console1 from "../assets/tvconsole/console1.jpeg"
+import console4 from "../assets/tvconsole/console4.jpeg"
+import console5 from "../assets/tvconsole/console5.jpeg"
+import console6 from "../assets/tvconsole/console6.jpeg"
+
 
 const beds = [
     beds1,
@@ -39,7 +43,7 @@ const chairs = [
 const kitchen = [kitchen1, kitchen2,kitchen3]
 const living = [living1, living2, living3]
 const office = [office1, office2,office3,office4]
-const console = [console1]
+const console = [console1, console4,console5,console6]
 
 
 
