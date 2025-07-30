@@ -6,17 +6,17 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Visit Us",
-      lines: ["123 Design Ave", "Downtown District", "NY 10001"],
+      lines: ["Shop No. 22-23 E-Mall", "Orchid Rd" ,"Second Toll Gate", "Lekki Lagos"],
     },
     {
       icon: Phone,
       title: "Call Us",
-      lines: ["(555) 123-4567", "Mon–Sat: 9–7", "Sun: 11–5"],
+      lines: ["+234 702 654 1493", "+234 702 644 5836", "Mon–Sat: 9–7", "Sun: 11–5"],
     },
     {
       icon: Mail,
       title: "Email",
-      lines: ["info@refinedliving.com", "design@refinedliving.com"],
+      lines: ["ffclassicfurniture@gmail.com"],
     },
   ];
 
@@ -45,7 +45,8 @@ export default function Contact() {
       <section className="bg-furniture-light text-center py-20">
         <MapIcon className="w-12 h-12 mx-auto text-furniture-brown mb-4" />
         <h3 className="text-xl font-semibold text-furniture-slate">
-          123 Design Avenue, NY 10001
+         <span>Shop No. 22-23 E-Mall</span> <br/>
+         <span>Orchid Rd, Second Toll Gate,<br/> Lekki Lagos</span>
         </h3>
         <p className="text-gray-600">Come visit our showroom!</p>
       </section>

@@ -1,6 +1,8 @@
 import { Sofa, Facebook, Instagram, Twitter, MapPin, Phone, Mail } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 import { SiPinterest } from "react-icons/si";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 const Footer = () => {
   return (
@@ -10,24 +12,20 @@ const Footer = () => {
           {/* Brand + Socials */}
           <div className="max-w-xs">
             <div className="text-2xl font-bold mb-4 flex justify-center md:justify-start items-center">
-              <Sofa className="mr-2 h-6 w-6" />
-              Refined Living
+                <img src={logo}  className="w-20"/>
             </div>
             <p className="text-gray-300 mb-4">
               Transforming homes with premium furniture and exceptional design services.
             </p>
             <div className="flex justify-center md:justify-start space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/ffclassicfurnitures/" className="text-gray-300 hover:text-white transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://intagram.com/ffclassicfurniture.ng " className="text-gray-300 hover:text-white transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                <SiPinterest className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
+              <a href="https://www.tiktok.com/@ffclassicfurniture" className="text-gray-300 hover:text-white transition-colors">
+                <FaTiktok className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -65,22 +63,27 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-300">
               <li className="flex items-center justify-center md:justify-start">
                 <MapPin className="mr-2 h-4 w-4" />
-                123 Design Avenue, NY 10001
+                 Shop No. 22-23 E-Mall 
+                 Orchid Rd, Second Toll Gate,Lekki Lagos
               </li>
               <li className="flex items-center justify-center md:justify-start">
                 <Phone className="mr-2 h-4 w-4" />
-                (555) 123-4567
+                +234 702 654 1493 
+              </li>
+              <li className="flex items-center justify-center md:justify-start">
+                <Phone className="mr-2 h-4 w-4" />
+                 +234 702 644 5836
               </li>
               <li className="flex items-center justify-center md:justify-start">
                 <Mail className="mr-2 h-4 w-4" />
-                info@refinedliving.com
+                    ffclassicfurniture@gmail.com
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-600 mt-12 pt-8 text-center">
-          <p className="text-gray-300">&copy; 2024 Refined Living. All rights reserved.</p>
+          <p className="text-gray-300">&copy; 2025 FF Classic Furniture. All rights reserved.</p>
         </div>
       </div>
     </footer>

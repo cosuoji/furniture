@@ -44,22 +44,27 @@ const Services = () => {
     {
       number: 1,
       title: "Consultation",
-      description: "Initial discussion about your needs and preferences",
+      description: "Collaborate with our experts to share your ideas, preferences, and space needs for a personalized solution",
     },
     {
       number: 2,
       title: "Design",
-      description: "Create a customized design plan for your space",
+      description: "Partner with our experts to create a personalized furniture design plan that reflects your style and preferences",
     },
     {
       number: 3,
-      title: "Selection",
-      description: "Choose from our curated furniture collections",
+      title: "Expert Production",
+      description: "Our artisans create each piece with care, using premium materials and time-tested techniques to ensure exceptional quality",
     },
     {
       number: 4,
-      title: "Installation",
-      description: "Professional delivery and setup in your home",
+      title: "Timely Delivery",
+      description: "Receive your pieces on schedule, delivered directly to your door and ready to transform your living space",
+    },
+      {
+      number: 5,
+      title: "Continuous Support",
+      description: "Our support does not end at delivery — we provide follow-ups and prompt assistance to address any concerns and ensure your complete satisfaction.",
     },
   ];
 
@@ -70,8 +75,9 @@ const Services = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6">Our Services</h1>
           <p className="text-xl max-w-2xl mx-auto">
-            From furniture selection to complete interior design, we provide comprehensive solutions for your home
-          </p>
+Our services cover a broad spectrum, designed to meet the needs of our clients both corporate and
+residential. Some of our services include: Custom-made furniture designs, Ready-made furniture,
+furniture repair & refinishing and nationwide delivery.          </p>
         </div>
       </section>
 
@@ -107,7 +113,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-5 gap-8">
             {processSteps.map((step, index) => (
               <div key={index} className="text-center">
                 <div className="bg-furniture-brown text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">

@@ -28,7 +28,7 @@ const Home = () => {
     },
     {
       icon: Truck,
-      title: "Free Delivery",
+      title: "Speedy Delivery",
       description: "Complimentary white-glove delivery and setup service",
     },
     {
@@ -52,7 +52,7 @@ const Home = () => {
         />
         <div className="absolute inset-0  bg-opacity-40" />
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">Refined Living</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">FF Classic Furiture</h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
             Transform your space with our curated collection of premium furniture and design expertise
           </p>
@@ -77,6 +77,7 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {collections.map((collection, index) => (
               <div key={index} className="group cursor-pointer">
+                <Link to="/gallery">
                 <div className="overflow-hidden rounded-xl mb-4">
                   <img
                     src={collection.image}
@@ -86,6 +87,7 @@ const Home = () => {
                 </div>
                 <h3 className="text-2xl font-semibold text-furniture-slate mb-2">{collection.title}</h3>
                 <p className="text-gray-600">{collection.description}</p>
+                </Link>
               </div>
             ))}
           </div>
@@ -96,7 +98,7 @@ const Home = () => {
       <section className="py-20 bg-furniture-beige">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-furniture-slate mb-4">Why Choose Refined Living</h2>
+            <h2 className="text-4xl font-bold text-furniture-slate mb-4">Why Choose FF Classic Furniture</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               We're committed to bringing you the finest furniture and exceptional service
             </p>

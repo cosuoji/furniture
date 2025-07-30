@@ -1,12 +1,13 @@
-import { Heart, Users, Leaf, Star } from "lucide-react";
+import { Heart, Users, Leaf, Star, Handshake, Hourglass, Hammer } from "lucide-react";
+import { MdHighQuality } from "react-icons/md";
 
 
 const About = () => {
   const values = [
     {
-      icon: Heart,
+      icon: MdHighQuality,
       title: "Quality First",
-      description: "We never compromise on quality. Every piece in our collection is carefully selected for its craftsmanship, durability, and timeless appeal.",
+      description: "We operate with transparency, honesty, and respect, building lasting relationships with our customers, suppliers, and communities",
     },
     {
       icon: Users,
@@ -14,29 +15,53 @@ const About = () => {
       description: "Your satisfaction is our priority. We work closely with each client to understand their needs and exceed their expectations.",
     },
     {
-      icon: Leaf,
-      title: "Sustainability",
-      description: "We're committed to sustainable practices, sourcing from manufacturers who share our environmental values.",
+      icon: Hammer,
+      title: "Innovation",
+      description: "We constantly push boundaries, blending modern design trends with traditional techniques to create fresh, functional, and stylish pieces."},
+      {
+      icon: Heart,
+      title: "Customer Satisfaction",
+      description: "Our clients’ needs and satisfaction are at the heart of everything wedo. We aim to provide exceptional service and deliver products that exceed expectations.",
+    },
+    {
+      icon: Hourglass,
+      title: "Timeless Design",
+      description: "We create furniture that not only meets today’s needs but remains relevant and stylish for years to come, offering lasting value",
+    },
+    {
+      icon: Handshake,
+      title: "Collaboration",
+      description: "We value teamwork — with our clients, designers, and artisans to bring creative visions to life while maintaining quality and consistency.",
     },
   ];
 
   const teamMembers = [
     {
-      name: "Samuel Don",
-      role: "Founder & Lead Designer",
-      description: "With 20 years in interior design, Sarah founded Refined Living to bring exceptional furniture and design to every home.",
-      image: "https://images.unsplash.com/photo-1645736594095-b9a4cabc1a7c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      name: "Folarin Saheed Aderemi",
+      role: "Chief Executive Officer, FF Classic Furniture & Decor",
+      description: "He is the dynamic CEO and Managing Director of FF Classic Furniture, a leading name in the furniture manufacturing and interior solutions industry in Nigeria. With a unique blend of creativity, leadership, and a passion for design, he has built FF Classic into a benchmark of innovation and excellence.",
+      image: "",
+    },
+    {
+      name: "Ezeji Miracle Eberechukwu",
+      role: "Chief Operations Officer, FF Classic Furniture & Decor",
+      description: "Ezeji Miracle serves as the strategic and results-driven Chief Operations Officer at FF Classic, where she oversees the day-to-day operations of the company, ensuring efficiency, quality, and seamless execution across all levels. With a deep understanding of the furniture manufacturing industry, Miracle is committed to driving operational excellence and innovation, while consistently optimizing processes to meet the ever-evolving needs of the market.",
+      image: "",
     },
   ];
 
     const testimonials = [
     {
-      text: "Refined Living transformed our home completely. The quality and service exceeded our expectations.",
-      author: "Sarah Johnson",
+      text: "We couldn’t be happier with the custom furniture we received! The craftsmanship is top-notch, and the team made sure everything was delivered on time.",
+      author: "— Emmanuel Lugban, Lagos.",
     },
     {
-      text: "Beautiful furniture and exceptional customer service. Highly recommend for anyone looking to upgrade their space.",
-      author: "Michael Chen",
+      text: "The quality of the woodwork and design is unmatched. The team at FF Classic Furniture exceeded all expectations.",
+      author: "David Ajagbor, Delta State",
+    },
+        {
+      text: "Always a pleasure to work with FF Classic Furniture. The best anytime!",
+      author: "— Pelumi A. Fagbemi, Lagos.",
     },
   ];
 
@@ -47,16 +72,21 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-5xl font-bold text-furniture-slate mb-6">About Refined Living</h1>
+              <h1 className="text-5xl font-bold text-furniture-slate mb-6">FF Classic Furniture</h1>
               <p className="text-lg text-gray-600 mb-6">
-                For over 15 years, Refined Living has been transforming homes with carefully curated furniture and exceptional design services. We believe that your home should reflect your personality while providing comfort and functionality.
-              </p>
+                    FF Classic Furniture isn't just about filling spaces — it's about shaping environments that reflect
+                    personality and purpose. Born from a desire to redefine the furniture landscape in Nigeria, our brand is
+                    driven by the pursuit of innovation, where craftsmanship meets creativity to deliver designs that are
+                    both enduring and inspiring.              </p>
               <p className="text-lg text-gray-600 mb-8">
-                Our passion for quality craftsmanship and timeless design drives us to source only the finest pieces from trusted manufacturers and artisans around the world.
+                  At FF Classic Furniture, we understand that each client has their own vision that's why we specialize in
+                  curating custom pieces that reflect personal style and meet unique needs. Our goal is to transform every
+                  space into a perfect balance of comfort, sophistication, and functionality which is why FF Classic
+                  Furniture has become a trusted name, synonymous with quality and excellence across Nigeria.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <div className="text-3xl font-bold text-furniture-brown mb-2">2000+</div>
+                  <div className="text-3xl font-bold text-furniture-brown mb-2">200+</div>
                   <div className="text-gray-600">Happy Customers</div>
                 </div>
                 <div>
@@ -80,9 +110,26 @@ const About = () => {
       <section className="py-20 bg-furniture-beige">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-furniture-slate mb-4">Our Mission & Values</h2>
+            <h2 className="text-6xl font-bold text-furniture-slate mb-4">Our Mission & Values</h2>
           </div>
 
+          <div className="text-center mb-16">
+            <h3 className="text-4xl font-bold text-furniture-slate mb-4">Vision</h3>
+            <p className="text-furniture-slate">Our vision is to become Nigeria's leading furniture brand, renowned for its cutting-edge innovation,
+superior craftsmanship, and game-changing designs.</p>
+          </div>
+
+
+             <div className="text-center mb-16">
+            <h3 className="text-4xl font-bold text-furniture-slate mb-4">Mission Statement</h3>
+            <p className="text-furniture-slate">Our mission is to provide our customers with beautifully designed, durable, and sustainable
+furniture that enriches their living and working environments, while offering exceptional
+service and craftsmanship.
+To create functional and stylish furniture that inspires cr eativity, fosters comfort, and adds
+value to every space we touch, all while staying true to quality and innovation.</p>
+          </div>
+
+        
           <div className="grid md:grid-cols-3 gap-8">
             {values.map((value, index) => (
               <div key={index} className="text-center">
@@ -107,7 +154,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {teamMembers.map((member, index) => (
               <div key={index} className="text-center">
                 <img
@@ -125,7 +172,7 @@ const About = () => {
       </section>
 
       {/* Story Section */}
-      <section className="py-20 bg-furniture-light">
+      {/* <section className="py-20 bg-furniture-light">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-furniture-slate mb-8">Our Story</h2>
@@ -140,7 +187,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
             {/* Testimonials */}
       <section className="py-20 bg-white">
@@ -149,7 +196,7 @@ const About = () => {
             <h2 className="text-4xl font-bold text-furniture-slate mb-4">What Our Clients Say</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="bg-furniture-light p-8 rounded-xl">
                 <div className="flex mb-4">

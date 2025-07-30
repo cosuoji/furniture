@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X, Sofa } from "lucide-react";
+import logo from "../assets/logo.png"
+
 
 const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -8,17 +10,18 @@ const Navigation = () => {
   const navItems = [
     { path: "/", label: "Home" },
     { path: "/services", label: "Services" },
+    { path: "/gallery", label: "Gallery" },
     { path: "/about", label: "About Us" },
     { path: "/contact", label: "Contact" },
   ];
+
 
   return (
     <header className="bg-white shadow-sm fixed w-full top-0 z-50">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <NavLink to="/" className="text-2xl font-bold text-furniture-brown flex items-center">
-            <Sofa className="mr-2 h-6 w-6" />
-            Refined Living
+             <img src={logo}  className="w-20"/>
           </NavLink>
 
           {/* Desktop Navigation */}
