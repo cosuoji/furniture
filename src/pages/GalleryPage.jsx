@@ -11,7 +11,6 @@ import chairs5 from "../assets/chairs/chairs5.jpeg"
 import kitchen1 from "../assets/kitchen/kitchen1.jpeg"
 import kitchen2 from "../assets/kitchen/kitchen2.jpeg"
 import kitchen3 from "../assets/kitchen/kitchen3.jpeg"
-import living1 from "../assets/livingareas/living1.jpeg"
 import living2 from "../assets/livingareas/living2.jpeg"
 import living3 from "../assets/livingareas/living3.jpeg"
 import office1 from "../assets/office/office1.jpeg"
@@ -41,7 +40,7 @@ const chairs = [
 ]
 
 const kitchen = [kitchen1, kitchen2,kitchen3]
-const living = [living1, living2, living3]
+const living = [living2, living3]
 const office = [office1, office2,office3,office4]
 const console = [console1, console4,console5,console6]
 

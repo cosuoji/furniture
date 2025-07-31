@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X, Sofa } from "lucide-react";
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.jpeg"
 
 
 const Navigation = () => {
