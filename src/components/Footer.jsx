@@ -2,7 +2,7 @@ import { Sofa, Facebook, Instagram, Twitter, MapPin, Phone, Mail } from "lucide-
 import { FaTiktok } from "react-icons/fa";
 import { SiPinterest } from "react-icons/si";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.jpeg"
 
 const Footer = () => {
   return (
