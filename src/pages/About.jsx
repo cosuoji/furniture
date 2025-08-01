@@ -1,6 +1,6 @@
 import { Heart, Users, Leaf, Star, Handshake, Hourglass, Hammer } from "lucide-react";
 import { MdHighQuality } from "react-icons/md";
-
+import saheed from "../assets/saheed.jpeg"
 
 const About = () => {
   const values = [
@@ -40,7 +40,7 @@ const About = () => {
       name: "Folarin Saheed Aderemi",
       role: "Chief Executive Officer, FF Classic Furniture & Decor",
       description: "He is the dynamic CEO and Managing Director of FF Classic Furniture, a leading name in the furniture manufacturing and interior solutions industry in Nigeria. With a unique blend of creativity, leadership, and a passion for design, he has built FF Classic into a benchmark of innovation and excellence.",
-      image: "",
+      image: saheed,
     },
     {
       name: "Ezeji Miracle Eberechukwu",
