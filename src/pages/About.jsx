@@ -1,6 +1,7 @@
 import { Heart, Users, Leaf, Star, Handshake, Hourglass, Hammer } from "lucide-react";
 import { MdHighQuality } from "react-icons/md";
-import saheed from "../assets/saheed.jpeg"
+import saheed from "../assets/saheed.jpeg" 
+import miracle from "../assets/miracle.jpeg" 
 
 const About = () => {
   const values = [
@@ -46,7 +47,7 @@ const About = () => {
       name: "Ezeji Miracle Eberechukwu",
       role: "Chief Operations Officer, FF Classic Furniture & Decor",
       description: "Ezeji Miracle serves as the strategic and results-driven Chief Operations Officer at FF Classic, where she oversees the day-to-day operations of the company, ensuring efficiency, quality, and seamless execution across all levels. With a deep understanding of the furniture manufacturing industry, Miracle is committed to driving operational excellence and innovation, while consistently optimizing processes to meet the ever-evolving needs of the market.",
-      image: "",
+      image: miracle,
     },
   ];
 
